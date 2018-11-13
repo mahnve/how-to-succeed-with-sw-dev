@@ -1,6 +1,6 @@
 <map version="freeplane 1.6.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Hur man lyckas med systemutveckling" FOLDED="false" ID="ID_226466942" CREATED="1542031779313" MODIFIED="1542031908720" STYLE="oval">
+<node TEXT="Hur man lyckas med systemutveckling" FOLDED="false" ID="ID_226466942" CREATED="1542031779313" MODIFIED="1542130530369" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false" show_note_icons="true" show_icon_for_attributes="true"/>
@@ -63,7 +63,8 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="11" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="13" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="&#xc4;r ni bra p&#xe5; systemutveckling" POSITION="right" ID="ID_1375576568" CREATED="1542032209600" MODIFIED="1542032246371">
 <edge COLOR="#00ffff"/>
 </node>
@@ -82,12 +83,10 @@
 <node TEXT="Velocity" ID="ID_409438616" CREATED="1542058802430" MODIFIED="1542058805411"/>
 </node>
 </node>
-<node TEXT="Hur vet vi om vi lyckas?" ID="ID_1345875352" CREATED="1542032068654" MODIFIED="1542061106882">
-<node TEXT="Hitta m&#xe4;tpunkt" ID="ID_839115284" CREATED="1542032117723" MODIFIED="1542032128694"/>
-<node TEXT="M&#xe4;t ofta" ID="ID_1954997087" CREATED="1542032130078" MODIFIED="1542032132947"/>
-<node TEXT="Det som m&#xe4;ts - sista kolumn p&#xe5; tavlan" ID="ID_696158379" CREATED="1542058974722" MODIFIED="1542058987525"/>
-<node TEXT="Build-learn-measure" ID="ID_759953102" CREATED="1542058943757" MODIFIED="1542058950312"/>
-</node>
+<node TEXT="Int&#xe4;kter" ID="ID_674094791" CREATED="1542130661242" MODIFIED="1542130665044"/>
+<node TEXT="Klara" ID="ID_123065137" CREATED="1542130665726" MODIFIED="1542130671133"/>
+<node TEXT="Folk m&#xe5;r bra" ID="ID_502480685" CREATED="1542130671583" MODIFIED="1542130685358"/>
+<node TEXT="" ID="ID_1645303642" CREATED="1542130686279" MODIFIED="1542130686279"/>
 </node>
 <node TEXT="Hitta relevanta m&#xe4;tv&#xe4;rden" POSITION="left" ID="ID_1534475688" CREATED="1542031972773" MODIFIED="1542031992029">
 <edge COLOR="#0000ff"/>
@@ -100,8 +99,13 @@
 <edge COLOR="#00007c"/>
 <node TEXT="Inga int&#xe4;kter" ID="ID_1177553864" CREATED="1542059060889" MODIFIED="1542059064930"/>
 </node>
-<node TEXT="L&#xe4;ttr&#xf6;rlig teknik" POSITION="left" ID="ID_286436444" CREATED="1542059088999" MODIFIED="1542059097211">
-<edge COLOR="#7c007c"/>
+<node TEXT="We&apos;re not an IT-company" POSITION="right" ID="ID_1781057661" CREATED="1542059598205" MODIFIED="1542059607057">
+<edge COLOR="#7c7c00"/>
+<node TEXT="Neither is Facebook" ID="ID_444806946" CREATED="1542059608476" MODIFIED="1542059613633"/>
+</node>
+<node TEXT="Vad bidrar till att lyckas?" POSITION="right" ID="ID_1043188314" CREATED="1542130436020" MODIFIED="1542130566396">
+<edge COLOR="#ff0000"/>
+<node TEXT="L&#xe4;ttr&#xf6;rlig teknik" ID="ID_286436444" CREATED="1542059088999" MODIFIED="1542130479468">
 <node TEXT="Simple vs Easy" ID="ID_1519102317" CREATED="1542059098271" MODIFIED="1542059105281"/>
 <node TEXT="Hur l&#xe5;ng &#xe4;r feedbackloopen?" ID="ID_1352686789" CREATED="1542059152598" MODIFIED="1542059163119">
 <node TEXT="4w" ID="ID_336216958" CREATED="1542059165152" MODIFIED="1542059172193"/>
@@ -141,8 +145,8 @@
 <node TEXT="Uberrepo" ID="ID_859143037" CREATED="1542059405797" MODIFIED="1542059411459"/>
 </node>
 </node>
-<node TEXT="Organisation" POSITION="left" ID="ID_547955928" CREATED="1542059446779" MODIFIED="1542059449709">
-<edge COLOR="#007c7c"/>
+<node TEXT="Organisation" ID="ID_547955928" CREATED="1542059446779" MODIFIED="1542130499667">
+<node TEXT="Universal Scalability Law" ID="ID_1871135694" CREATED="1542062953884" MODIFIED="1542062961230"/>
 <node TEXT="Conways lag" ID="ID_1765852221" CREATED="1542059450952" MODIFIED="1542059454241">
 <node TEXT="Mappa efter services" ID="ID_395634835" CREATED="1542060102114" MODIFIED="1542060108385">
 <node TEXT="Low coupling - high cohesion" ID="ID_1571458375" CREATED="1542060111953" MODIFIED="1542060121001"/>
@@ -154,9 +158,13 @@
 <node TEXT="Retrospektiv" ID="ID_980241498" CREATED="1542059514080" MODIFIED="1542059517135"/>
 </node>
 </node>
-<node TEXT="We&apos;re not an IT-company" POSITION="right" ID="ID_1781057661" CREATED="1542059598205" MODIFIED="1542059607057">
-<edge COLOR="#7c7c00"/>
-<node TEXT="Neither is Facebook" ID="ID_444806946" CREATED="1542059608476" MODIFIED="1542059613633"/>
+</node>
+<node TEXT="Hur vet vi om vi lyckas?" POSITION="right" ID="ID_1345875352" CREATED="1542032068654" MODIFIED="1542130574264">
+<edge COLOR="#0000ff"/>
+<node TEXT="Hitta m&#xe4;tpunkt" ID="ID_839115284" CREATED="1542032117723" MODIFIED="1542032128694"/>
+<node TEXT="M&#xe4;t ofta" ID="ID_1954997087" CREATED="1542032130078" MODIFIED="1542032132947"/>
+<node TEXT="Det som m&#xe4;ts - sista kolumn p&#xe5; tavlan" ID="ID_696158379" CREATED="1542058974722" MODIFIED="1542058987525"/>
+<node TEXT="Build-learn-measure" ID="ID_759953102" CREATED="1542058943757" MODIFIED="1542058950312"/>
 </node>
 </node>
 </map>
